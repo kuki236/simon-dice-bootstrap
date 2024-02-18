@@ -1,0 +1,74 @@
+section{
+    background-color: #FFFCE6;
+}
+#estado{
+    margin-top: 5%;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 2.3rem;
+    text-align:center;
+}
+.boton-empezar{
+    margin-top: 25%;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 2.3rem;
+}
+.ronda-estilo{
+    margin-top: 28%;
+    justify-self: center;
+    align-items: center;    
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "Protest Revolution", sans-serif;;
+}
+.texto-rojo{
+    height: 370px;
+    width: 100%;
+    background-color: #FF2A18;
+    padding-left: 50px;
+    color: #FF2A18;
+}
+.texto-azul{
+    height: 370px;
+    width: 100%;
+    background-color: #161C53;
+    padding-left: 50px;
+    color: #161C53
+}
+.texto-amarillo{
+    margin-top: 4%;
+    height: 370px;
+    width: 100%;
+    background-color: rgba(236, 236, 33, 0.969);
+    padding-left: 50px;
+    color: rgba(236, 236, 33, 0.969);
+}
+.texto-verde{
+    margin-top: 4%;
+    height: 370px;
+    width: 100%;
+    background-color: #03A64A;
+    padding-left: 50px;
+    color: #03A64A;
+}
+.cuadro{
+    opacity: 0.5;
+    box-shadow: none;
+    transition: opacity 500ms, box-shadow 500ms;
+}
+@media screen and (max-width:800px) {
+    .cuadro{
+        height: 140px;
+    }
+    .texto-azul{
+        margin-top: 4%;
+    }
+    .boton-empezar {
+        margin-top: 3%;
+    }
+    .ronda-estilo {
+        margin-top: 9%;
+    }
+    .texto-rojo{
+        margin-top: 5%;
+    }
+}
